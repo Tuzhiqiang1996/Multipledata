@@ -14,4 +14,5 @@ import com.gch.druidmodule2.entity.TbOrderlist;
  */
 public interface TbOrderlistService extends IService<TbOrderlist> {
 
+    int countAll();
 }
